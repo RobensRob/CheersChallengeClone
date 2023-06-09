@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../imgs/cheers.png">
+    <title>Cheers Challenge Clone</title>
+</head>
+<body>
+    <div class="constant">
+        <img src="../imgs/cheers.png" alt="Cheers" style="width: 550px; height: 300px;">
+        <h1>Cheers Challenge Clone</h1>
+    </div>
+    <div id="switchable">
+        <div id="playersContainer">
+            <ol id="players">
+    
+            </ol>
+        </div>
+        <div class="in">
+            <div class="upper">
+                <input type="text" id="addPlayer" placeholder="Name">
+            </div>
+            <div class="under">
+                <button id="add" onclick="addPlayer()">+</button>
+                <button onclick="startGame()">Spiel starten!</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/addPlayer.js"></script>
+</html>
